@@ -1,9 +1,10 @@
-* {
-    box-sizing: border-box;
-}
+
 
 @import "fonts.css";
 
+* {
+    box-sizing: border-box;
+}
 
 /*
  REGLES GENERALES
@@ -134,15 +135,28 @@ main{
 pied de page
 */
 footer {
-    background: #823922;
-    color: white;
+    padding-top: 50px;
     text-align: center;
-    padding: 10px;
-    margin: 20px auto 40px;
-    font-weight: 400;
-    min-height: 50px;
-    border-top: 30px solid #E8A062;
-    border-bottom: 30px solid #E8A062;
-    border-radius: 30px;
+
 }
 
+footer nav ul {
+    padding: 0;
+}
+footer nav ul li{
+    list-style-type: none;
+    display: inline-block;
+
+}
+
+footer nav ul li img{
+    width: 50px;
+    margin: 0 15px;
+    filter: grayscale(1);
+    transition: all 500ms linear;
+}
+
+footer nav ul li img:hover {
+    filter: grayscale(0);
+
+}
