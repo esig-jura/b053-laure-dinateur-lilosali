@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+
+@import "fonts.css";
+
+
+/*
+ REGLES GENERALES
+*/
+body {
+    font-family: 'Open Sans' , sans-serif;
+    font-weight: 400;
+    font-size: 100%;
+    line-height: 1.4;
+    color: #011627 ;
+    background-color:#fdfffc;
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+
+a {
+    color: #e71d36;
+    text-decoration: none;
+}
+
+
+h2,
+h1{
+    font-family: 'Changa One', serif;
+    font-weight: 400;
+}
+
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+h2
+{
+    font-size: 1.5rem;
+    margin-bottom:.75em;
+}
+
+p{
+    line-height: 1,5;
+}
+
+/*
+ En-tête
+*/
+
+header {
+    text-align: center;
+    background: #000000;
+    padding: 10px;
+}
+
+header img{
+    max-height: 160px;
+}
+
+/*
+contenu principale du site
+*/
+
+main{
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.intro {
+    font-size: 1.3rem;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.ingedients{
+    padding: 0px;
+    max-width: 95%;
+    margin: 40px auto;
+    list-style-type: none;
+    background: #E8A062;
+    color: white;
+    padding: 10px 40px;
+    border-radius: 30px;
+}
+
+/*
+pied de page
+*/
+footer {
+    background: #823922;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: 20px auto 40px;
+    font-weight: 400;
+    min-height: 50px;
+    border-top: 30px solid #E8A062;
+    border-bottom: 30px solid #E8A062;
+    border-radius: 30px;
+}
+
