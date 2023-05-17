@@ -126,27 +126,9 @@ contenu principale du site
 */
 
 main{
-    padding: 20px;
-    max-width: 600px;
-    margin: 0 auto;
+    margin: 0 5%;
 }
 
-.intro {
-    font-size: 1.3rem;
-    font-style: italic;
-    text-transform: uppercase;
-}
-
-.ingedients{
-    padding: 0px;
-    max-width: 95%;
-    margin: 40px auto;
-    list-style-type: none;
-    background: #E8A062;
-    color: white;
-    padding: 10px 40px;
-    border-radius: 30px;
-}
 
 /*
 pied de page
