@@ -44,8 +44,7 @@ h1 {
     margin-bottom: 1em;
 }
 
-h2
-{
+h2{
     font-size: 1.5rem;
     margin-bottom:.75em;
 }
@@ -59,8 +58,7 @@ p{
  En-tête
 */
 
-header
-{
+header {
     text-align: center;
     background: black;
     padding-top: 5px;
@@ -68,9 +66,8 @@ header
 }
 
 
-header .logo
-{
-
+.logo {
+    text-align: center
 }
 
 header .nom{
@@ -126,7 +123,8 @@ header nav ul li a:hover{
 contenu principale du site
 */
 
-main{
+body main{
+    text-align: left;
     margin: 0 5%;
 }
 
@@ -159,4 +157,9 @@ footer nav ul li img{
 footer nav ul li img:hover {
     filter: grayscale(0);
 
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
 }
